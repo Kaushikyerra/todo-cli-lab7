@@ -4,4 +4,6 @@ def list_tasks(): print(tasks)
 def add_task_cli():
     t=input('Task: ')
     add_task(t)
-def delete_task(i): if i < len(tasks): del tasks[i]
+def delete_task(i):
+    if i < len(tasks):
+        del tasks[i]
